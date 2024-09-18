@@ -1,5 +1,6 @@
 #include <stdio.h> 
-int main()
+int main(void)
 { 
     printf("Welcome to CMPT 201\n");
+    return 0;
 }
