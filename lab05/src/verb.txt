@@ -1,0 +1,10 @@
+"runs",
+"jumps",
+"flies",
+"reads",
+"writes",
+"talks",
+"sleeps",
+"eats",
+"drinks",
+"drives"

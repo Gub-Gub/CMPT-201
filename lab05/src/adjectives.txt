@@ -1,0 +1,10 @@
+"silent",
+"noisy",
+"happy",
+"sad",
+"bright",
+"dark",
+"quick",
+"lazy",
+"large",
+"small"

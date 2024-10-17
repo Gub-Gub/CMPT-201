@@ -1,0 +1,10 @@
+"dog",
+"cat",
+"city",
+"river",
+"car",
+"book",
+"tree",
+"house",
+"computer",
+"bird"

@@ -1,0 +1,10 @@
+"quickly",
+"slowly",
+"happily",
+"sadly",
+"brightly",
+"silently",
+"noisily",
+"eagerly",
+"lazily",
+"gracefully"
