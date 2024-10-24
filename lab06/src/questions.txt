@@ -1,0 +1,27 @@
+Code               | Question                  | Answer                  |
+-------------------------------------------------------------------------|
+char a = ’Q’;      | What does *ap contain?    |     Q                       
+int b;             | What does b contain?      |     error, b is int, a is char, if int *b = &a then would hold address of a.
+char* ap;          |                           |                         |
+ap = a;            |                           |                         |
+b = &a;            |                           |                         |
+-------------------------------------------------------------------------|
+char q[]="goose";  | *r contain [1st]? |       |     g (q[0])
+char *r,*s;        | *s contain [1st]?         |     g (q[0])                 
+r=&q[0];           |.                          |                         |
+s=&q;              | *r contain [2nd]?         |     o (q[1])              
+r++;               | *s contain [2nd]?         |     o (q[2])                
+s+=2;              |                           |                         |
+-------------------------------------------------------------------------|
+double a = 3.14;   |Difference between  *ap in |    in double *ap you deference thus ap points to a which gives the value 3.14.                  
+double b;          | "double *ap" and "b=*ap"? |    in b = *ap we are assigning the value to b, so b is 3.14.
+double *ap;        |                           |                         |
+ap = &a;           | What doe the %p represent?|    used to print the memory address stored in the pointer ap, thus it will give             
+b = *ap;           |                           |    address of var a.
+printf("%p\n",ap); |                           |                         |
+-------------------------------------------------------------------------|
+#define NUL ’\0’   | What is the difference    |                         |
+char a = NUL;      | between NUL and NULL?     |    NUL = "\0", end character. NULL = pointer to nothing, no valid memory location.
+char b = NULL;     |                           |                         |
+                   | Purpose of NULL?          |    NULL used in things like error checking and intilization or end of lists.
+-------------------------------------------------------------------------|
